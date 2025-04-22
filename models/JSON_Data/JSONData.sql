@@ -8,7 +8,7 @@ _DATA:"ACCOUNT_DETAILS"[0]:"Address":"Residential"::STRING as Residential,
 _DATA:"ACCOUNT_DETAILS"[0]:"Address":"Billing"::STRING as Billing,
 _DATA:"ACCOUNT_DETAILS"[0]:"Banking":"branch"::STRING as Branch,
 _DATA:"ACCOUNT_DETAILS"[0]:"Banking":"accountNumber"::STRING as accountNumber,
-_DATA:"ACCOUNT_DETAILS"[0]:"Banking":"balance"::STRING as balance
+_DATA:"ACCOUNT_DETAILS"[0]:"Banking":"balance"::INT as balance
  FROM MYDB.CS2.CS_2_BANKING
 
 
